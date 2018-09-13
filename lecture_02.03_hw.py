@@ -4,7 +4,7 @@ from collections import Counter
 #==========JSON==========
 print('=============JSON=============')
 import json
-with open('/files/newsafr.json') as datafile:
+with open('files/newsafr.json') as datafile:
   json_data = json.load(datafile)
   description_list = list()
   word_list = list()
