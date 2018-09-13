@@ -4,7 +4,7 @@ from collections import Counter
 #==========JSON==========
 print('=============JSON=============')
 import json
-with open('/Users/dolgaymer/Yandex.Disk.localized/Learning & development/PyProjects/newsafr.json') as datafile:
+with open('/files/newsafr.json') as datafile:
   json_data = json.load(datafile)
   description_list = list()
   word_list = list()
@@ -31,7 +31,7 @@ print(top_10[:10])
 #==========XML==========
 print('=============XML=============')
 import xml.etree.ElementTree as ET
-tree = ET.parse('/Users/dolgaymer/Yandex.Disk.localized/Learning & development/PyProjects/newsafr.xml')
+tree = ET.parse('files/newsafr.xml')
 descriptions = []
 root = tree.getroot()
 # print(root.tag)
