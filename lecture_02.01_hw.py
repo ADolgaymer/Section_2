@@ -118,7 +118,7 @@ animal_10.collect_eggs(4)
 
 
 animal_register = [animal_01.__dict__, animal_02.__dict__, animal_03.__dict__, animal_04.__dict__, animal_05.__dict__, animal_06.__dict__, animal_07.__dict__, animal_08.__dict__, animal_09.__dict__,  animal_10.__dict__,]
-print(animal_register)
+print(*animal_register, sep='\n')
 
 print('______________________________________________')
 
