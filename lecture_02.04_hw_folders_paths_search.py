@@ -42,7 +42,6 @@ def search():
                 result.append(file_path)
             else:
                 result_n.append(file_path)
-    adress_list = result
     print(result)
     print('файлов, содержащих запрос: ', len(result))
     print('файлов, не содержащих запрос: ', len(result_n))
